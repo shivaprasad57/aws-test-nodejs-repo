@@ -1,6 +1,6 @@
 Skip to content
  
-Search or jump to…
+Search or jump toâ€¦
 
 Pull requests
 Issues
@@ -33,7 +33,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Compiling the Node.js code
-      - mocha test.js
+      # - mocha test.js
   post_build:
     commands:
       - echo Build completed on `date`
@@ -48,7 +48,7 @@ artifacts:
     - package.json
     - node_modules/async/*
     - node_modules/lodash/*
-© 2018 GitHub, Inc.
+Â© 2018 GitHub, Inc.
 Terms
 Privacy
 Security
